@@ -1,0 +1,5 @@
+/static/css/app.css
+/static/js/app.js
+.env
+/vendor
+/node_modules

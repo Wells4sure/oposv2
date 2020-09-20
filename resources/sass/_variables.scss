@@ -1,0 +1,117 @@
+// Body
+$body-bg: #fff;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+// $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+
+
+//GLOBAL VARIABLES
+
+$experimental-support-for-svg:          true;
+
+//Basic colors
+$base-clr:                            	#333333;
+$header-bgr:                            #242424;
+$footer-bgr:							#fff;
+$base-font:                             'Lato', sans-serif;
+$title-font:                            'Lato', sans-serif;
+
+$base-font-size:          				18px;
+$fs:$base-font-size;
+$font-weight: 							400;
+$base-line-height: 						$base-font-size*1.5;
+$lh : $base-line-height;
+
+//COLORS
+$text-clr: 								#333333;
+$second-clr:							#333333;
+$title-clr:								#333333;
+$link-clr:								#333333;
+$link-hover:							darken($link-clr, 15%);
+
+$color-dark:                            #fff;
+$color-cold:                            #fff;
+$color-warm:                            #fff;
+$color-alert:                           #fff;
+$color-success:                         #fff;
+$color-mute:                            #fff;
+$color-white:                           #fff;
+
+
+$border:								#fff;
+$border-active:							#fff;
+
+$footer-clr:							#fff;
+
+$input-clr:								#fff;
+$input-placeholder-clr:					#fff;
+$input-bgr:								#fff;
+
+$btn-clr:								#fff;
+$btn-bgr:								#fff;
+$btn-hover:								#fff;
+
+
+//LAYOUT
+$space:                          		20px;
+$page-width:                            1170px;
+$radius:								3px;
+
+
+//SELECT TEXT
+$selected-text-bgr:						#000;
+$selected-text-clr:						#fff;
+
+
+//GRID
+$gutter:                                20px;
+$grid-gutter:                           $gutter;
+$grid-wide-gutter:                      30px;
+
+
+$base-duration: 0.25s;
+
+// Colors
+$primary: slategray;
+$accent: tomato;
+$white: whitesmoke;
+$green: #2ecc71;
+$red: #e74c3c;
+
+// Breakpoints
+$sm: 20rem;
+$med: 48rem;
+$lg: 64rem;

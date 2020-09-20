@@ -1,0 +1,24 @@
+html {
+    background-color: #fff;
+    color: $text-clr;
+    font-family: $base-font;
+    font-size: ($base-font-size / 16px) * 1em;
+    line-height: $base-line-height;
+    font-weight: $font-weight;
+    position: relative;
+    min-height: 100%;
+    word-wrap: break-word;
+    scroll-behavior: smooth;
+    &.active {
+        //overflow: hidden!important;
+    }
+}
+// @include transform-style(preserve-3d);
+body {
+    -webkit-font-smoothing: antialiased;
+    //overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 !important;
+}
